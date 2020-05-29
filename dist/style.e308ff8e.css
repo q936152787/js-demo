@@ -1,0 +1,39 @@
+
+#introduction{
+  display: inline-block;
+}
+
+#taiji{
+  position: fixed;
+  transform: translateX(-50%);
+  left:70vw;
+  top: 20px;
+}
+
+#taiji::before {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+#taiji::after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+@media (max-width: 500px) {
+  #introduction {
+    height: 60vh;
+    display: block;
+    overflow: auto;
+  }
+
+  #taiji {
+    height: 50vh;
+    position: relative;
+    top: 10px;
+    left: 50vw;
+  }
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
